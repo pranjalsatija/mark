@@ -1,0 +1,9 @@
+[submodule "App"]
+	path = App
+	url = https://github.com/pranjalsatija/App
+[submodule "UI"]
+	path = UI
+	url = https://github.com/pranjalsatija/UI
+[submodule "Core"]
+	path = Core
+	url = https://github.com/pranjalsatija/Core

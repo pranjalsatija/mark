@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='CoreTests.xctest' tests='85' failures='0'>
+  <testsuite name='CoreTests.CLCircularRegionEventTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.CLCircularRegionEventTests' name='testInitializer' time='0.194'/>
+  </testsuite>
+  <testsuite name='CoreTests.CLLocationCoordinate2DTests' tests='2' failures='0'>
+    <testcase classname='CoreTests.CLLocationCoordinate2DTests' name='testEquality' time='0.013'/>
+    <testcase classname='CoreTests.CLLocationCoordinate2DTests' name='testInitializers' time='0.001'/>
+  </testsuite>
+  <testsuite name='CoreTests.CLLocationLocationProtocolTests' tests='2' failures='0'>
+    <testcase classname='CoreTests.CLLocationLocationProtocolTests' name='testEquality' time='0.003'/>
+    <testcase classname='CoreTests.CLLocationLocationProtocolTests' name='testInitializers' time='0.001'/>
+  </testsuite>
+  <testsuite name='CoreTests.CloudFunctionTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.CloudFunctionTests' name='testFunctions' time='0.001'/>
+  </testsuite>
+  <testsuite name='CoreTests.CountdownTests' tests='2' failures='0'>
+    <testcase classname='CoreTests.CountdownTests' name='testInitializer' time='3.004'/>
+    <testcase classname='CoreTests.CountdownTests' name='testStart' time='3.002'/>
+  </testsuite>
+  <testsuite name='CoreTests.DateExtensionsTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.DateExtensionsTests' name='testDateExtensions' time='0.002'/>
+  </testsuite>
+  <testsuite name='CoreTests.EventCategoryTests' tests='3' failures='0'>
+    <testcase classname='CoreTests.EventCategoryTests' name='testGetIconImage' time='0.100'/>
+    <testcase classname='CoreTests.EventCategoryTests' name='testGetIconImageWithError' time='0.007'/>
+    <testcase classname='CoreTests.EventCategoryTests' name='testGetIconImageWithInvalidImage' time='0.005'/>
+  </testsuite>
+  <testsuite name='CoreTests.EventOriginTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.EventOriginTests' name='testInitializer' time='0.003'/>
+  </testsuite>
+  <testsuite name='CoreTests.EventTests' tests='13' failures='0'>
+    <testcase classname='CoreTests.EventTests' name='testDuration' time='0.003'/>
+    <testcase classname='CoreTests.EventTests' name='testGetCoverPhotoSuccessfully' time='0.057'/>
+    <testcase classname='CoreTests.EventTests' name='testGetCoverPhotoWithFailedImageLoad' time='0.036'/>
+    <testcase classname='CoreTests.EventTests' name='testGetCoverPhotoWithNoCoverPhoto' time='0.036'/>
+    <testcase classname='CoreTests.EventTests' name='testGetCurrentlyOccurringEventsNearLocation' time='0.027'/>
+    <testcase classname='CoreTests.EventTests' name='testGetRelevantEventsInBox' time='0.020'/>
+    <testcase classname='CoreTests.EventTests' name='testGetRelevantEventsInBoxWithError' time='0.015'/>
+    <testcase classname='CoreTests.EventTests' name='testIsCurrentlyOccurring' time='0.059'/>
+    <testcase classname='CoreTests.EventTests' name='testIsEndingSoon' time='0.015'/>
+    <testcase classname='CoreTests.EventTests' name='testOrigin' time='0.046'/>
+    <testcase classname='CoreTests.EventTests' name='testOriginURL' time='0.004'/>
+    <testcase classname='CoreTests.EventTests' name='testUserIsPresent' time='0.003'/>
+    <testcase classname='CoreTests.EventTests' name='testUserIsPresentWithoutLocation' time='0.002'/>
+  </testsuite>
+  <testsuite name='CoreTests.LikeTests' tests='2' failures='0'>
+    <testcase classname='CoreTests.LikeTests' name='testCreate' time='0.012'/>
+    <testcase classname='CoreTests.LikeTests' name='testExists' time='0.026'/>
+  </testsuite>
+  <testsuite name='CoreTests.LocationManagerTests' tests='6' failures='0'>
+    <testcase classname='CoreTests.LocationManagerTests' name='testNegativeTestOnAuthorizationStatusChange' time='0.052'/>
+    <testcase classname='CoreTests.LocationManagerTests' name='testOnAuthorizationStatusChange' time='0.011'/>
+    <testcase classname='CoreTests.LocationManagerTests' name='testRequestAlwaysAuthorization' time='0.017'/>
+    <testcase classname='CoreTests.LocationManagerTests' name='testRequestWhenInUseAuthorization' time='0.022'/>
+    <testcase classname='CoreTests.LocationManagerTests' name='testStartLocationUpdates' time='0.016'/>
+    <testcase classname='CoreTests.LocationManagerTests' name='testStopLocationUpdates' time='0.027'/>
+  </testsuite>
+  <testsuite name='CoreTests.LocationTests' tests='2' failures='0'>
+    <testcase classname='CoreTests.LocationTests' name='testEquality' time='0.003'/>
+    <testcase classname='CoreTests.LocationTests' name='testInitializer' time='0.002'/>
+  </testsuite>
+  <testsuite name='CoreTests.MultithreadingTests' tests='4' failures='0'>
+    <testcase classname='CoreTests.MultithreadingTests' name='testBackground' time='0.005'/>
+    <testcase classname='CoreTests.MultithreadingTests' name='testBackgroundWithCompletionHandler' time='0.003'/>
+    <testcase classname='CoreTests.MultithreadingTests' name='testBackgroundWithCompletionHandlerAndError' time='0.003'/>
+    <testcase classname='CoreTests.MultithreadingTests' name='testMain' time='0.007'/>
+  </testsuite>
+  <testsuite name='CoreTests.NotificationManagerTests' tests='8' failures='0'>
+    <testcase classname='CoreTests.NotificationManagerTests' name='testGetAuthorizationStatus' time='0.004'/>
+    <testcase classname='CoreTests.NotificationManagerTests' name='testRemoveRequestsMatchingPredicate' time='0.009'/>
+    <testcase classname='CoreTests.NotificationManagerTests' name='testRemoveRequestWithID' time='0.003'/>
+    <testcase classname='CoreTests.NotificationManagerTests' name='testRequestAuthorization' time='0.005'/>
+    <testcase classname='CoreTests.NotificationManagerTests' name='testRequestExists' time='0.003'/>
+    <testcase classname='CoreTests.NotificationManagerTests' name='testScheduleAtDate' time='0.005'/>
+    <testcase classname='CoreTests.NotificationManagerTests' name='testScheduleAtDateWithInvalidDate' time='0.001'/>
+    <testcase classname='CoreTests.NotificationManagerTests' name='testScheduleAtRegion' time='0.006'/>
+  </testsuite>
+  <testsuite name='CoreTests.NotificationOpenTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.NotificationOpenTests' name='testCreateWithUser' time='0.010'/>
+  </testsuite>
+  <testsuite name='CoreTests.ObjectTests' tests='2' failures='0'>
+    <testcase classname='CoreTests.ObjectTests' name='testEquality' time='0.005'/>
+    <testcase classname='CoreTests.ObjectTests' name='testNegativeEquality' time='0.001'/>
+  </testsuite>
+  <testsuite name='CoreTests.PFGeoPointLocationProtocolTests' tests='2' failures='0'>
+    <testcase classname='CoreTests.PFGeoPointLocationProtocolTests' name='testEquality' time='0.001'/>
+    <testcase classname='CoreTests.PFGeoPointLocationProtocolTests' name='testInitializers' time='0.004'/>
+  </testsuite>
+  <testsuite name='CoreTests.PFSubclassingExtensionTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.PFSubclassingExtensionTests' name='testPFSubclassingExtension' time='0.003'/>
+  </testsuite>
+  <testsuite name='CoreTests.PFUserLikeTests' tests='2' failures='0'>
+    <testcase classname='CoreTests.PFUserLikeTests' name='testCreate' time='0.003'/>
+    <testcase classname='CoreTests.PFUserLikeTests' name='testExists' time='0.003'/>
+  </testsuite>
+  <testsuite name='CoreTests.PFUserNotificationOpenTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.PFUserNotificationOpenTests' name='testRegisterWithUserInfo' time='0.004'/>
+  </testsuite>
+  <testsuite name='CoreTests.PFUserReferralTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.PFUserReferralTests' name='testRegisterFromSender' time='0.004'/>
+  </testsuite>
+  <testsuite name='CoreTests.PFUserReportTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.PFUserReportTests' name='testCreate' time='0.003'/>
+  </testsuite>
+  <testsuite name='CoreTests.PFUserSessionTests' tests='2' failures='0'>
+    <testcase classname='CoreTests.PFUserSessionTests' name='testEndLatest' time='0.006'/>
+    <testcase classname='CoreTests.PFUserSessionTests' name='testStart' time='0.006'/>
+  </testsuite>
+  <testsuite name='CoreTests.PFUserShareTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.PFUserShareTests' name='testRegister' time='0.004'/>
+  </testsuite>
+  <testsuite name='CoreTests.PFUserViewTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.PFUserViewTests' name='testCreate' time='0.002'/>
+  </testsuite>
+  <testsuite name='CoreTests.PFUserVisitTests' tests='2' failures='0'>
+    <testcase classname='CoreTests.PFUserVisitTests' name='testCreate' time='0.004'/>
+    <testcase classname='CoreTests.PFUserVisitTests' name='testGetVisits' time='0.003'/>
+  </testsuite>
+  <testsuite name='CoreTests.PortalTests' tests='3' failures='0'>
+    <testcase classname='CoreTests.PortalTests' name='testInitializer' time='0.001'/>
+    <testcase classname='CoreTests.PortalTests' name='testInvalidUpdate' time='0.005'/>
+    <testcase classname='CoreTests.PortalTests' name='testOpeningMultiplePortals' time='0.003'/>
+  </testsuite>
+  <testsuite name='CoreTests.ReferralTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.ReferralTests' name='testCreate' time='0.011'/>
+  </testsuite>
+  <testsuite name='CoreTests.ReportTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.ReportTests' name='testCreate' time='0.003'/>
+  </testsuite>
+  <testsuite name='CoreTests.SessionTests' tests='3' failures='0'>
+    <testcase classname='CoreTests.SessionTests' name='testCreateWithUser' time='0.002'/>
+    <testcase classname='CoreTests.SessionTests' name='testEndSessionWithUser' time='0.003'/>
+    <testcase classname='CoreTests.SessionTests' name='testNegativeEndSessionWithUser' time='0.004'/>
+  </testsuite>
+  <testsuite name='CoreTests.ShareTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.ShareTests' name='testCreate' time='0.003'/>
+  </testsuite>
+  <testsuite name='CoreTests.UserErrorTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.UserErrorTests' name='testErrorCodes' time='0.010'/>
+  </testsuite>
+  <testsuite name='CoreTests.UserEventTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.UserEventTests' name='testUserIsAtEvent' time='0.001'/>
+  </testsuite>
+  <testsuite name='CoreTests.UserTests' tests='6' failures='0'>
+    <testcase classname='CoreTests.UserTests' name='testLogOut' time='0.003'/>
+    <testcase classname='CoreTests.UserTests' name='testSendPIN' time='0.008'/>
+    <testcase classname='CoreTests.UserTests' name='testSendPINWithInvalidPhoneNumber' time='0.018'/>
+    <testcase classname='CoreTests.UserTests' name='testVerifyPIN' time='0.006'/>
+    <testcase classname='CoreTests.UserTests' name='testVerifyPINWithIncorrectPIN' time='0.003'/>
+    <testcase classname='CoreTests.UserTests' name='testVerifyPINWithMissingUsername' time='0.005'/>
+  </testsuite>
+  <testsuite name='CoreTests.ViewTests' tests='1' failures='0'>
+    <testcase classname='CoreTests.ViewTests' name='testCreate' time='0.002'/>
+  </testsuite>
+  <testsuite name='CoreTests.VisitTests' tests='2' failures='0'>
+    <testcase classname='CoreTests.VisitTests' name='testCreate' time='0.017'/>
+    <testcase classname='CoreTests.VisitTests' name='testGetVisits' time='0.012'/>
+  </testsuite>
+</testsuites>

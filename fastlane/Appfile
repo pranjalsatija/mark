@@ -1,0 +1,8 @@
+app_identifier "com.events.mark.App" # The bundle identifier of your app
+apple_id "me@pranj.co" # Your Apple email address
+
+itc_team_id "118526903" # iTunes Connect Team ID
+team_id "MXGFXQ4GNJ" # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
