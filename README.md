@@ -3,7 +3,7 @@ A way to discover the best local events in your area.
 
 This is the source for my unreleased app *mark*, which is a way to find and view the most popular live events in your area. It allows you to use a map to search for events, and it also features natural language text search (see [Transform](https://github.com/pranjalsatija/Transform)) for event discovery. Users who are at events have the ability to record photos and videos using the app and post them as well.
 
-I decided to stop working on mark due to tough competition from established companies like Facebook and Eventbrite. I'm working on my next personal project now, which I'll be open sourcing in a few weeks (that means Summer '18).
+I decided to stop working on mark due to tough competition from established companies like Facebook and Eventbrite. I'm working on my next personal project now.
 
 # Project Structure
 The project is split up into a few distinct git repos which are managed using submodules. This is nice because it keeps the compile time and codebase size for each individual repo down, and also enables a loose coupling between them, which makes mark's model, UI components, etc. highly reusable across other apps. Here's a breakdown of the repos:
